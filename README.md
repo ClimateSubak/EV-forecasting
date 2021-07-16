@@ -47,24 +47,36 @@ Dependencies required for this project:
 dependencies.sh
 
 Pre-processing notebooks:
-How I preprocess them, fill in missing data etc, (how, why, what assumptions)
+
 P1. Processes raw income data (D1): import 2014, 2016, 2018 datasets. Calculate monthly and annual income for 2014 from weekly averages. Clean data, and interpolate missing years through averaging.
+
 P2. Load IMD and RUC LSOA data (D3 and D4), and map from LSOA to MSOA.
+
 P3. Load LSOA electricity consumption data (D5), select only England and Wales LSOA regions (34753), and check that the dataframes for 2010-2019 are all the same size.
+
 P4. Load the public chargers (D6) and private chargers (D7) for LAs. Reduce to LAs that are contained in LSOA regional data (R1). Find missing LAs and fill missing values with zeros, assuming that there are no chargers in these LAs.
+
 P5. Load FIT data (D6) and map to LSOA and months.
+
 P6. Load and process houseprice data (D2) and impute missing values with the mean of all numeric values present for that year.
+
 P7. Merge the processed MSOA files into a single dataframe of steady features for classification.
+
 P8. Merging the processed MSOA files into a single multi-indexed dataframe for time-dependent data for forecasting.
 
 Analysis notebooks:
+
 A1. Initial exploratory data analysis of the steady features on the MSOA granularity.
 
 Functions:
+
 F1. Functions to plot forecasting predictions for single MSOA and distribution of EV count.
+
 F2. Functions to split data into test/train on temporal or spatial or both.
 
 Modelling notebooks:
 M1. Classification of EV present in steady dataset at 04-2021.
+
 M2. Classification model wrapped with Shapley package.
+
 M3. XGBoost forecasting model for forecasting EV count.
