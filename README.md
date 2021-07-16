@@ -1,7 +1,5 @@
 # EV-forecasting
 
-# EV-forecasting
-
 Electric vehicle uptake in MSOAs of England and Wales
 
 In this project we connect disparate datasets relevant to Electric Vehicle (EV) uptake in the UK. In particular, we develop a forecast of EV uptake in the UK driven by socioeconomic and energy factors.
@@ -12,6 +10,8 @@ LA - Local Authority
 LSOA - Lower layer super output areas
 MSOA  - Middle layer super output areas
 EV - Electric vehicle
+
+The processed datasets for modelling are available here: https://figshare.com/articles/dataset/MSOA_evcount/14995020
 
 We use publicly available data:
 
