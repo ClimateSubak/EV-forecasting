@@ -2,6 +2,8 @@
 
 Electric vehicle uptake in MSOAs of England and Wales
 
+Writeup and code by [Victoria Pereira](http://people.maths.ox.ac.uk/pereira/) during a [Faculty Data Science Fellowship](https://faculty.ai/fellowship-fellows/) with [Climate Subak](https://subak.org)
+
 In this project we connect disparate datasets relevant to Electric Vehicle (EV) uptake in the UK. In particular, we develop a forecast of EV uptake in the UK driven by socioeconomic and energy factors.
 
 **Abbrevations**:  
